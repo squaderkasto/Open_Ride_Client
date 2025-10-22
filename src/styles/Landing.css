@@ -1,0 +1,33 @@
+.landing-container {
+  height: 85vh;
+  background: linear-gradient(to bottom right, #1e88e5, #42a5f5);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.landing-hero h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.landing-hero p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.landing-hero button {
+  padding: 12px 24px;
+  background-color: white;
+  color: #1e88e5;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.landing-hero button:hover {
+  background-color: #e3f2fd;
+}

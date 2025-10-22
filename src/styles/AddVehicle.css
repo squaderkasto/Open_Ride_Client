@@ -1,0 +1,56 @@
+.add-vehicle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.add-vehicle-card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.add-vehicle-card h2 {
+  text-align: center;
+  color: #1e88e5;
+  margin-bottom: 10px;
+}
+
+.add-vehicle-card select,
+.add-vehicle-card input {
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.add-vehicle-card select:focus,
+.add-vehicle-card input:focus {
+  border-color: #1e88e5;
+}
+
+.add-vehicle-card button {
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-vehicle-card button:hover {
+  background-color: #1565c0;
+}

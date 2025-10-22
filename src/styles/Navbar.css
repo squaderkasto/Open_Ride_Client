@@ -1,0 +1,128 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #0d47a1;
+  color: white;
+  align-items: center;
+}
+
+.navbar-left {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-right button {
+  margin-left: 10px;
+  padding: 8px 14px;
+  border: none;
+  background-color: #ffffff;
+  color: #0d47a1;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar-right button:hover {
+  background-color: #e3f2fd;
+}
+
+.user-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  width: 200px;
+  text-align: left;
+}
+
+.dropdown-menu button {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #0d47a1;
+  cursor: pointer;
+}
+
+.dropdown-menu p {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.user-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.user-dropdown > button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 42px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  width: 220px;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.dropdown-menu p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dropdown-menu button {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 8px 0;
+  font-size: 14px;
+  cursor: pointer;
+  color: #1e88e5;
+}
+
+.dropdown-menu button:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
